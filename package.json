@@ -1,6 +1,7 @@
 {
   "name": "react-app-ghpage",
   "version": "0.1.0",
+  "homepage": "https://fanta335.github.io/react-app-ghpage/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
