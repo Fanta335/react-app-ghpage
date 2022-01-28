@@ -13,15 +13,12 @@ jobs:
     steps:
 
     - name: Checkout
-      uses: actions/checkout@v1
-
-    - name: Install Dependencies
-      run: |
-        npm install
+      uses: actions/checkout@v2
 
     - name: Build
       run: |
-        npm run build
+        npm install
+        npm run-script build
       env:
         REACT_APP_TEST_URL: ${{ secrets.REACT_APP_TEST_URL }}
 
